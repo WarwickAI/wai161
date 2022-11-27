@@ -10,6 +10,8 @@ To run the code, you will need to have installed the pre-requisites covered in [
 
 To run the code, clone this repository and then run `npm install` in the directory of the tutorial you want to run (e.g. `tutorial-1-code`). Once the dependencies have been installed, you can run the code using `npm run dev` (again in the specific tutorial's code directory).
 
+**For the code in tutorials 3 and onwards, you will need to also run `npm prisma migrate dev` to set up the database (as explained in the slides in tutorial 3).**
+
 ## Tutorial Slides
 
 The slides for each tutorial are available in the `tutorial-slides-<x>` PDFs. These may have some updates from the live tutorial, or may include information not covered due to time constraints.
